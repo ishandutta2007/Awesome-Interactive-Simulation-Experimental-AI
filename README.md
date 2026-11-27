@@ -20,6 +20,7 @@ A curated list of top interactive simulation platforms, agent-based modeling (AB
 
 
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source Equivalents & Tools](#open-source-equivalents--tools)
@@ -40,31 +41,24 @@ A curated list of top interactive simulation platforms, agent-based modeling (AB
 
 ---
 
+## Sector Overview & Market Dynamics
 
+The global simulation software and interactive AI modeling market is estimated at approximately **$12B–$15B** (and projected to surpass **$30B+ by 2030** at an estimated CAGR of 13–15%), driven by surging demand for digital twins, autonomous agents, and synthetic training environments. The sector remains **moderately to highly fragmented** rather than a winner-take-all landscape—traditional industrial/engineering domains are anchored by specialized incumbents (e.g., AnyLogic, Siemens, Dassault), while the emerging generative agent, embodied AI, and reinforcement learning simulation tiers are experiencing rapid unbundling and vibrant competition between niche SaaS platforms and vibrant open-source ecosystems.
+
+---
 
 ## SaaS/Hosted Platforms
 
-
-
-Commercial, cloud-hosted simulation studios, web-based system dynamics modelers, proprietary digital twin suites, and enterprise simulation clouds.
-
-
-
-* **[AnyLogic Cloud](https://anylogic.com)** - Cloud-based simulation analytics platform for running, sharing, and experimenting with multimethod (Agent-Based, Discrete Event, System Dynamics) models online.
-
-* **[Simio Cloud](https://simio.com)** - Enterprise SaaS discrete-event simulation and digital twin platform for scheduling, supply chain, and factory optimization.
-
-* **[Insight Maker](https://insightmaker.com)** - Free web-based, hosted multi-user simulation and modeling environment supporting System Dynamics and Agent-Based Modeling in the browser.
-
-* **[Stella Online (isee systems)](https://iseesystems.com)** - Cloud-hosted system dynamics modeling platform for building and sharing interactive policy and business simulations.
-
-* **[Vensim Cloud / Forio Epicenter](https://vensim.com)** - Commercial simulation software and cloud hosting ecosystem for continuous system dynamics and feedback loop modeling.
-
-* **[Wolfram SystemModeler](https://wolfram.com)** - Proprietary physical modeling and simulation environment built on Modelica and integrated with Wolfram Cloud.
-
-* **[Simul8](https://simul8.com)** - Cloud-enabled discrete-event process simulation software for healthcare, manufacturing, and logistics workflows.
-
-* **[NetLogo Web (Hosted Service)](https://netlogoweb.org)** - Official hosted browser version of NetLogo enabling users to run and modify agent-based models directly in the web browser.
+| Platform | Description | Deployment / Model | Pricing | Free Tier / Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[AnyLogic Cloud](https://anylogic.com)** | Cloud-based simulation analytics platform for running, sharing, and experimenting with multimethod (Agent-Based, Discrete Event, System Dynamics) models. | Cloud SaaS & Private Cloud | Commercial quote / Tiered subscription | Free tier available (Public model sharing, limited runs & CPU quota) |
+| **[Simio Cloud](https://simio.com)** | Enterprise discrete-event simulation and digital twin platform for scheduling, supply chain, and factory optimization. | Cloud SaaS & On-Premises | Custom enterprise quote | No free tier (Demo / trial upon request) |
+| **[Insight Maker](https://insightmaker.com)** | Web-based, hosted collaborative modeling environment supporting System Dynamics and Agent-Based Modeling directly in the browser. | Fully Hosted Web App | Free / Open Access | Free (Unlimited public models; donation-supported) |
+| **[Stella Online (isee systems)](https://iseesystems.com)** | Cloud-hosted system dynamics modeling platform for building, publishing, and sharing interactive policy/business simulations. | Cloud SaaS | From ~$9–$45/user/month (academic & commercial tiers) | Free basic publishing tier (Public models only; limited active simulations) |
+| **[Vensim Cloud / Forio Epicenter](https://vensim.com)** | Cloud hosting and simulation engine ecosystem for continuous system dynamics, interactive interfaces, and feedback loops. | Cloud Platform / API | Commercial tiers from ~$100+/mo | Free developer tier (Limited hosting capacity & private project caps) |
+| **[Wolfram SystemModeler](https://wolfram.com)** | Physical modeling and simulation environment built on Modelica and integrated with Wolfram Cloud analytics. | Desktop + Cloud | Desktop/cloud licenses from ~$350/yr (Standard/Pro tiers) | 30-day free trial; free tier with basic Wolfram Cloud computation limits |
+| **[Simul8](https://simul8.com)** | Cloud-enabled discrete-event process simulation software for healthcare, manufacturing, and logistics workflows. | Cloud SaaS & Desktop | From ~$2,500–$4,500/yr (per named user) | 14-day free trial available |
+| **[NetLogo Web](https://netlogoweb.org)** | Hosted browser version of NetLogo enabling users to run, modify, and export agent-based models directly in the web browser. | Free Hosted Web App | Free | Free without restrictions (Open-access community tool) |
 
 
 
