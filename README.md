@@ -1,179 +1,162 @@
-# Awesome-Interactive-Simulation-Experimental-AI
+<div align="center">
 
-# Awesome-Interactive-Simulation-Experimental-AI
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Interactive Simulation & Experimental AI Banner" width="100%" />
+</p>
 
+# 🌐 Awesome Interactive Simulation & Experimental AI 🤖
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-Top Interactive Simulation Experimental AI (Opensource) 🌟 Star if you like it! 🌟
-
-
-
-A curated list of top interactive simulation platforms, agent-based modeling (ABM) engines, system dynamics tools, multi-agent reinforcement learning environments, and experimental AI sandboxes—featuring commercial SaaS/Hosted platforms alongside their open-source equivalents.
-
-
-
----
-
-
-
-## Table of Contents
-
-
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source Equivalents & Tools](#open-source-equivalents--tools)
-
-  - [Interactive Simulation & Experimental AI Environments](#interactive-simulation--experimental-ai-environments)
-
-  - [Agent-Based Modeling (ABM) & Multi-Agent Frameworks](#agent-based-modeling-abm--multi-agent-frameworks)
-
-  - [Multi-Agent Reinforcement Learning (MARL) & AI Sandboxes](#multi-agent-reinforcement-learning-marl--ai-sandboxes)
-
-  - [System Dynamics & Discrete-Event Simulation Engines](#system-dynamics--discrete-event-simulation-engines)
-
-  - [Physics, Robotics & Embodied AI Simulators](#physics-robotics--embodied-ai-simulators)
-
-- [Contributing](#contributing)
-
-
+<p align="center">
+  <strong>A curated list of top interactive simulation platforms, agent-based modeling (ABM) engines, system dynamics tools, multi-agent reinforcement learning (MARL) sandboxes, and experimental AI physics environments.</strong>
+  <br />
+  <em>Featuring enterprise cloud SaaS suites ranked by company scale alongside top-tier open-source tools ranked by community GitHub stars.</em>
+</p>
 
 ---
 
-## Sector Overview & Market Dynamics
+</div>
 
-The global simulation software and interactive AI modeling market is estimated at approximately **$12B–$15B** (and projected to surpass **$30B+ by 2030** at an estimated CAGR of 13–15%), driven by surging demand for digital twins, autonomous agents, and synthetic training environments. The sector remains **moderately to highly fragmented** rather than a winner-take-all landscape—traditional industrial/engineering domains are anchored by specialized incumbents (e.g., AnyLogic, Siemens, Dassault), while the emerging generative agent, embodied AI, and reinforcement learning simulation tiers are experiencing rapid unbundling and vibrant competition between niche SaaS platforms and vibrant open-source ecosystems.
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🛠️ Open-Source Equivalents & Tools](#️-open-source-equivalents--tools)
+  - [🤖 Multi-Agent Systems, Generative Swarms & Social Sandboxes](#-multi-agent-systems-generative-swarms--social-sandboxes)
+  - [🦾 Physics, Robotics & Embodied AI Simulators](#-physics-robotics--embodied-ai-simulators)
+  - [🧠 Multi-Agent Reinforcement Learning (MARL) & Benchmarks](#-multi-agent-reinforcement-learning-marl--benchmarks)
+  - [👥 Agent-Based Modeling (ABM) & Complex Adaptive Systems](#-agent-based-modeling-abm--complex-adaptive-systems)
+  - [📈 System Dynamics & Discrete-Event Simulation Engines](#-system-dynamics--discrete-event-simulation-engines)
+- [📈 Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## SaaS/Hosted Platforms
+## 📊 Sector Overview & Market Dynamics
 
-| Platform | Description | Deployment / Model | Pricing | Free Tier / Limits |
+The global simulation software and interactive AI modeling market is estimated at approximately **$12B–$15B** (projected to surpass **$30B+ by 2030** at an estimated CAGR of 13–15%), driven by surging demand for industrial digital twins, autonomous agents, and synthetic training environments. 
+
+The sector remains **moderately to highly fragmented** rather than a winner-take-all landscape:
+* **Industrial & Enterprise Domain:** Dominated by established simulation engineering and computing incumbents (e.g., Wolfram, AnyLogic, Minitab/Simul8, Siemens, Dassault) offering tailored, vertical-specific digital twin ecosystems.
+* **Autonomous AI & Generative Agents Tier:** Experiencing intense unbundling and vibrant innovation between niche cloud platforms and hyper-active open-source research communities (such as DeepMind, Farama Foundation, Meta, and OpenAI-adjacent ecosystems) where high-fidelity simulation engines are increasingly open-sourced to fuel foundational AI training.
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+> [!NOTE]
+> SaaS platforms are sorted in **descending order of estimated company size** (annual revenue / valuation standing).
+
+| Platform | Company Size (Est. Revenue / Valuation) | Deployment / Delivery | Pricing (Specific Starting Tiers) | Free Tier Limits / Free Trial Terms |
 | :--- | :--- | :--- | :--- | :--- |
-| **[AnyLogic Cloud](https://anylogic.com)** | Cloud-based simulation analytics platform for running, sharing, and experimenting with multimethod (Agent-Based, Discrete Event, System Dynamics) models. | Cloud SaaS & Private Cloud | Commercial quote / Tiered subscription | Free tier available (Public model sharing, limited runs & CPU quota) |
-| **[Simio Cloud](https://simio.com)** | Enterprise discrete-event simulation and digital twin platform for scheduling, supply chain, and factory optimization. | Cloud SaaS & On-Premises | Custom enterprise quote | No free tier (Demo / trial upon request) |
-| **[Insight Maker](https://insightmaker.com)** | Web-based, hosted collaborative modeling environment supporting System Dynamics and Agent-Based Modeling directly in the browser. | Fully Hosted Web App | Free / Open Access | Free (Unlimited public models; donation-supported) |
-| **[Stella Online (isee systems)](https://iseesystems.com)** | Cloud-hosted system dynamics modeling platform for building, publishing, and sharing interactive policy/business simulations. | Cloud SaaS | From ~$9–$45/user/month (academic & commercial tiers) | Free basic publishing tier (Public models only; limited active simulations) |
-| **[Vensim Cloud / Forio Epicenter](https://vensim.com)** | Cloud hosting and simulation engine ecosystem for continuous system dynamics, interactive interfaces, and feedback loops. | Cloud Platform / API | Commercial tiers from ~$100+/mo | Free developer tier (Limited hosting capacity & private project caps) |
-| **[Wolfram SystemModeler](https://wolfram.com)** | Physical modeling and simulation environment built on Modelica and integrated with Wolfram Cloud analytics. | Desktop + Cloud | Desktop/cloud licenses from ~$350/yr (Standard/Pro tiers) | 30-day free trial; free tier with basic Wolfram Cloud computation limits |
-| **[Simul8](https://simul8.com)** | Cloud-enabled discrete-event process simulation software for healthcare, manufacturing, and logistics workflows. | Cloud SaaS & Desktop | From ~$2,500–$4,500/yr (per named user) | 14-day free trial available |
-| **[NetLogo Web](https://netlogoweb.org)** | Hosted browser version of NetLogo enabling users to run, modify, and export agent-based models directly in the web browser. | Free Hosted Web App | Free | Free without restrictions (Open-access community tool) |
-
-
+| **[Wolfram SystemModeler](https://wolfram.com)** | **~$70M–$150M+ annual revenue** (~500–800 employees; privately held) | Desktop + Wolfram Cloud | **$350/year** (Personal/Standard desktop/cloud tier) or **$3,495** one-time perpetual license | **30-day full-feature free trial**; Wolfram Cloud Basic tier is free forever but capped at **0.2 CPU hours/month** and **200 MB storage** |
+| **[AnyLogic Cloud](https://anylogic.com)** | **~$23M–$26M annual revenue** (~100–150 employees; bootstrapped/private) | Multi-tenant SaaS & Private Cloud | **~$2,500/year** per user (Professional Cloud Subscription starting quote) | **Free forever plan**: Public model hosting only; compute capped at **1 minute** for standard runs, **5 minutes** for animated/optimization runs, **2 GB RAM**, and **32 MB** output file limits |
+| **[Simul8](https://simul8.com)** | **~$5M–$10M annual revenue** (Acquired by Minitab, LLC in Dec 2024; estimated $100M+ parent group) | Cloud SaaS & Windows Desktop | **$4,999/user/year** (Simul8 Basic / Professional named annual license) | **14-day free trial** with full access to cloud modeling features; no permanent free tier |
+| **[Simio Cloud](https://simio.com)** | **~$5.9M–$7.3M annual revenue** (~50 employees; acquired by Aegis Industrial Software) | Cloud SaaS & On-Premises Digital Twin | **~$5,000/seat/year** (Starting commercial digital twin seat subscription) | **30-day fully functional free evaluation trial**; completely free 100% feature-unlocked licenses for accredited university academic programs |
+| **[Vensim Cloud / Forio Epicenter](https://vensim.com)** | **~$1.8M–$3.2M annual revenue** (Ventana Systems & Forio joint cloud platform) | Cloud Platform API & Desktop Engine | **$50 one-time** (Vensim PLE commercial) or **$100/month** (Forio Epicenter Team Cloud tier) | **Free forever tier**: Vensim PLE is free for educational and personal academic use; Forio Epicenter free developer account allows up to **3 public projects** and **10 MB storage** |
+| **[Stella Online (isee systems)](https://iseesystems.com)** | **~$450K–$1M annual revenue** (~10–20 employees; specialized private SMB) | Web SaaS (isee Exchange) | **$509 one-time** (Stella Architect individual desktop + linked cloud publishing license) | **Free forever browser plan**: Limited strictly to **3 stocks** and **20 total model icons** for basic causal loops and educational learning |
+| **[NetLogo Web](https://netlogoweb.org)** | **Non-Profit / Research-Backed** (Center for Connected Learning & Northwestern Univ.) | Hosted Browser Application | **$0 / Free** (Open educational access, NSF-supported) | **Free forever without restrictions**: Runs entirely client-side via JavaScript engine; exportable to local desktop NetLogo |
+| **[Insight Maker](https://insightmaker.com)** | **Non-Profit / Open-Access** (Open-source community & donation funded) | Cloud-Hosted Web Application | **$0 / Free** (100% free web-based modeling platform) | **Free forever without limits**: Unlimited public simulation models, unlimited simulation runs, multi-user real-time collaboration |
 
 ---
 
+## 🛠️ Open-Source Equivalents & Tools
 
+> [!TIP]
+> Open-source repositories in each category are sorted in **descending order of GitHub Star count**. Each star badge links directly to the project's real-time stargazers.
 
-## Open-Source Equivalents & Tools
+### 🤖 Multi-Agent Systems, Generative Swarms & Social Sandboxes
 
+* **[MetaGPT](https://github.com/geekan/MetaGPT)** [![Stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=social&color=white)](https://github.com/geekan/MetaGPT/stargazers) — Multi-agent framework that assigns diverse roles (product managers, architects, engineers) to LLMs to simulate collaborative software companies and complex workflows.
+* **[ChatDev](https://github.com/OpenBMB/ChatDev)** [![Stars](https://img.shields.io/github/stars/OpenBMB/ChatDev?style=social&color=white)](https://github.com/OpenBMB/ChatDev/stargazers) — Virtual software company simulator where communicative multi-agent systems collaborate through interactive chat chains to design and develop software.
+* **[Generative Agents](https://github.com/joonspk-research/generative_agents)** [![Stars](https://img.shields.io/github/stars/joonspk-research/generative_agents?style=social&color=white)](https://github.com/joonspk-research/generative_agents/stargazers) — The canonical computational sandbox simulating 25 generative LLM agents living in an interactive virtual town (*Smallville*) with emergent social dynamics.
+* **[Swarms](https://github.com/kyegomez/swarms)** [![Stars](https://img.shields.io/github/stars/kyegomez/swarms?style=social&color=white)](https://github.com/kyegomez/swarms/stargazers) — Enterprise-grade production multi-agent orchestration framework for simulating and executing swarms of autonomous communicative agents.
+* **[Concordia](https://github.com/google-deepmind/concordia)** [![Stars](https://img.shields.io/github/stars/google-deepmind/concordia?style=social&color=white)](https://github.com/google-deepmind/concordia/stargazers) — DeepMind's generative agent-based social simulation library powered by language models for studying social contracts and collective human-AI behavior.
 
+### 🦾 Physics, Robotics & Embodied AI Simulators
 
-Free and open-source software (FOSS) agent-based modeling frameworks, experimental AI sandboxes, system dynamics engines, discrete-event libraries, and embodied physics simulators.
+* **[Genesis](https://github.com/Genesis-Embodied-AI/Genesis)** [![Stars](https://img.shields.io/github/stars/Genesis-Embodied-AI/Genesis?style=social&color=white)](https://github.com/Genesis-Embodied-AI/Genesis/stargazers) — Ultra-fast, universal physics simulation platform for robotics, embodied AI, and tactile sensing, simulating rigid bodies, fluids, deformable solids, and muscle actuators.
+* **[AirSim](https://github.com/microsoft/AirSim)** [![Stars](https://img.shields.io/github/stars/microsoft/AirSim?style=social&color=white)](https://github.com/microsoft/AirSim/stargazers) — Microsoft's open-source simulator for autonomous drones, cars, and mobile robots built on Unreal Engine for physically and visually realistic AI experiments.
+* **[MuJoCo](https://github.com/google-deepmind/mujoco)** [![Stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=social&color=white)](https://github.com/google-deepmind/mujoco/stargazers) — Google DeepMind's multi-joint dynamics with contact engine; the gold standard physics simulator for reinforcement learning, biomechanics, and robotic manipulation.
+* **[PyBullet](https://github.com/bulletphysics/bullet3)** [![Stars](https://img.shields.io/github/stars/bulletphysics/bullet3?style=social&color=white)](https://github.com/bulletphysics/bullet3/stargazers) — Easy-to-use Python SDK for Bullet Physics, widely utilized for robotics research, virtual reality, multi-joint inverse kinematics, and reinforcement learning.
+* **[CARLA](https://github.com/carla-simulator/carla)** [![Stars](https://img.shields.io/github/stars/carla-simulator/carla?style=social&color=white)](https://github.com/carla-simulator/carla/stargazers) — Open-source urban driving simulator developed from the ground up to support development, training, and validation of autonomous driving systems and sensor fleets.
+* **[Isaac Lab](https://github.com/isaac-sim/IsaacLab)** [![Stars](https://img.shields.io/github/stars/isaac-sim/IsaacLab?style=social&color=white)](https://github.com/isaac-sim/IsaacLab/stargazers) — Unified modular simulation framework by NVIDIA built on Omniverse Isaac Sim for robot learning, whole-body loco-manipulation, and high-fidelity GPU physics.
+* **[NVIDIA Warp](https://github.com/NVIDIA/warp)** [![Stars](https://img.shields.io/github/stars/NVIDIA/warp?style=social&color=white)](https://github.com/NVIDIA/warp/stargazers) — High-performance Python framework for writing GPU-accelerated simulation kernels, spatial computing algorithms, and differentiable physical systems.
+* **[Webots](https://github.com/cyberbotics/webots)** [![Stars](https://img.shields.io/github/stars/cyberbotics/webots?style=social&color=white)](https://github.com/cyberbotics/webots/stargazers) — Award-winning, open-source 3D robot simulation suite providing a comprehensive development environment for modeling industrial and wheeled robots.
+* **[Habitat-Sim](https://github.com/facebookresearch/habitat-sim)** [![Stars](https://img.shields.io/github/stars/facebookresearch/habitat-sim?style=social&color=white)](https://github.com/facebookresearch/habitat-sim/stargazers) — Meta AI's high-performance 3D simulator rendering photorealistic indoor spaces at thousands of frames per second for embodied AI agents.
+* **[Habitat-Lab](https://github.com/facebookresearch/habitat-lab)** [![Stars](https://img.shields.io/github/stars/facebookresearch/habitat-lab?style=social&color=white)](https://github.com/facebookresearch/habitat-lab/stargazers) — Modular high-level library for training embodied AI agents (PointGoal navigation, rearrangement, visual question answering) in Habitat.
+* **[IsaacGymEnvs](https://github.com/isaac-sim/IsaacGymEnvs)** [![Stars](https://img.shields.io/github/stars/isaac-sim/IsaacGymEnvs?style=social&color=white)](https://github.com/isaac-sim/IsaacGymEnvs/stargazers) — End-to-end GPU-accelerated simulation environments running directly in tensor memory for extreme RL throughput.
+* **[AI2-THOR](https://github.com/allenai/ai2thor)** [![Stars](https://img.shields.io/github/stars/allenai/ai2thor?style=social&color=white)](https://github.com/allenai/ai2thor/stargazers) — Near-photorealistic interactive environment for embodied AI containing hundreds of physics-enabled rooms with actionable household objects.
+* **[Gazebo](https://github.com/gazebosim/gz-sim)** [![Stars](https://img.shields.io/github/stars/gazebosim/gz-sim?style=social&color=white)](https://github.com/gazebosim/gz-sim/stargazers) — The premier open-source multi-robot 3D simulator featuring high-fidelity sensor models, multiple physics backends (DART, Bullet), and seamless ROS 2 integration.
 
+### 🧠 Multi-Agent Reinforcement Learning (MARL) & Benchmarks
 
+* **[Gymnasium](https://github.com/Farama-Foundation/Gymnasium)** [![Stars](https://img.shields.io/github/stars/Farama-Foundation/Gymnasium?style=social&color=white)](https://github.com/Farama-Foundation/Gymnasium/stargazers) — The standard open-source Python API interface for single-agent reinforcement learning and experimental control tasks (official maintained successor to OpenAI Gym).
+* **[PettingZoo](https://github.com/Farama-Foundation/PettingZoo)** [![Stars](https://img.shields.io/github/stars/Farama-Foundation/PettingZoo?style=social&color=white)](https://github.com/Farama-Foundation/PettingZoo/stargazers) — The universal multi-agent standard interface providing multi-agent Atari, classical, particle, and cooperation games with Gymnasium compatibility.
+* **[ManiSkill](https://github.com/haosulab/ManiSkill)** [![Stars](https://img.shields.io/github/stars/haosulab/ManiSkill?style=social&color=white)](https://github.com/haosulab/ManiSkill/stargazers) — Benchmark environment for robot manipulation powered by GPU parallelized physics engines supporting thousands of parallel environment instances.
+* **[Brax](https://github.com/google/brax)** [![Stars](https://img.shields.io/github/stars/google/brax?style=social&color=white)](https://github.com/google/brax/stargazers) — Google's fully differentiable 3D physics engine and benchmark environment written in JAX, allowing end-to-end policy gradients and million-step-per-second RL simulations.
+* **[SMAC](https://github.com/oxwhirl/smac)** [![Stars](https://img.shields.io/github/stars/oxwhirl/smac?style=social&color=white)](https://github.com/oxwhirl/smac/stargazers) — StarCraft Multi-Agent Challenge; Oxford WhiRL's standard benchmark environment for cooperative multi-agent reinforcement learning based on StarCraft II.
+* **[Melting Pot](https://github.com/google-deepmind/meltingpot)** [![Stars](https://img.shields.io/github/stars/google-deepmind/meltingpot?style=social&color=white)](https://github.com/google-deepmind/meltingpot/stargazers) — DeepMind's suite of multi-agent reinforcement learning substrate games focusing on social dilemmas, reciprocal altruism, and norm emergence.
+* **[JaxMARL](https://github.com/bold-lab-ai/JaxMARL)** [![Stars](https://img.shields.io/github/stars/bold-lab-ai/JaxMARL?style=social&color=white)](https://github.com/bold-lab-ai/JaxMARL/stargazers) — Fully GPU-vectorized multi-agent reinforcement learning library in JAX including multi-agent Hanabi, Overcooked, and StarCraft micro environments.
+* **[Craftax](https://github.com/MichaelTMatthews/Craftax)** [![Stars](https://img.shields.io/github/stars/MichaelTMatthews/Craftax?style=social&color=white)](https://github.com/MichaelTMatthews/Craftax/stargazers) — Ultra-fast Crafter-like survival and open-ended exploration environment written entirely in JAX for lightning-speed reinforcement learning research.
 
-### Interactive Simulation & Experimental AI Environments
+### 👥 Agent-Based Modeling (ABM) & Complex Adaptive Systems
 
+* **[Mesa](https://github.com/projectmesa/mesa)** [![Stars](https://img.shields.io/github/stars/projectmesa/mesa?style=social&color=white)](https://github.com/projectmesa/mesa/stargazers) — Python's premier modular framework for agent-based modeling, featuring scheduling systems, spatial 2D/continuous grids, and browser visualization.
+* **[NetLogo](https://github.com/NetLogo/NetLogo)** [![Stars](https://img.shields.io/github/stars/NetLogo/NetLogo?style=social&color=white)](https://github.com/NetLogo/NetLogo/stargazers) — The classic multi-agent programmable modeling environment for simulating natural, social, and economic phenomena with thousands of published models.
+* **[Agents.jl](https://github.com/JuliaDynamics/Agents.jl)** [![Stars](https://img.shields.io/github/stars/JuliaDynamics/Agents.jl?style=social&color=white)](https://github.com/JuliaDynamics/Agents.jl/stargazers) — High-performance, pure Julia agent-based modeling package built on top of the Julia dynamical systems ecosystem with interactive Makie visualization.
+* **[AgentPy](https://github.com/JoelForamitti/agentpy)** [![Stars](https://img.shields.io/github/stars/JoelForamitti/agentpy?style=social&color=white)](https://github.com/JoelForamitti/agentpy/stargazers) — Open-source Python library for developing, simulating, and analyzing agent-based models tailored specifically for Jupyter notebooks.
+* **[MASON](https://github.com/eclab/mason)** [![Stars](https://img.shields.io/github/stars/eclab/mason?style=social&color=white)](https://github.com/eclab/mason/stargazers) — Fast discrete-event multi-agent simulation core in Java designed to support massive-scale swarms, GIS extensions, and 3D visualization.
+* **[FLAME GPU 2](https://github.com/FLAMEGPU/FLAMEGPU2)** [![Stars](https://img.shields.io/github/stars/FLAMEGPU/FLAMEGPU2?style=social&color=white)](https://github.com/FLAMEGPU/FLAMEGPU2/stargazers) — Massive-scale GPU-accelerated agent-based simulation framework delivering real-time performance on CUDA-enabled computing clusters.
+* **[GAMA Platform](https://github.com/gama-platform/gama)** [![Stars](https://img.shields.io/github/stars/gama-platform/gama?style=social&color=white)](https://github.com/gama-platform/gama/stargazers) — Spatially explicit multi-agent simulation environment tailored for complex GIS modeling, environmental policy, and urban planning.
+* **[Repast4Py](https://github.com/Repast/repast4py)** [![Stars](https://img.shields.io/github/stars/Repast/repast4py?style=social&color=white)](https://github.com/Repast/repast4py/stargazers) — Next-generation Python agent-based modeling and simulation platform built with MPI for extreme high-performance computing (HPC) clusters.
 
+### 📈 System Dynamics & Discrete-Event Simulation Engines
 
-* **[Experiential (experientiallabs)](https://github.com)** - Open-source interactive simulation and experimental AI framework engineered for dynamic environments and emergent behaviors.
-
-* **[NetLogo](https://github.com)** - The classic, multi-agent programmable modeling environment for simulating natural and social phenomena with thousands of community models.
-
-* **[AgentPy](https://github.com)** - Open-source Python library for developing, visualizing, and analyzing agent-based models seamlessly inside Jupyter notebooks.
-
-* **[Hash Core (hEngine)](https://github.com)** - Open-source, Rust-based multi-agent simulation engine designed for high-performance, browser-compatible modeling.
-
-* **[Concordia (Google DeepMind)](https://github.com)** - Open-source library for building generative agent-based social simulations powered by Large Language Models (LLMs).
-
-* **[OASIS (Open Agent Social Interaction Simulations)](https://github.com)** - Scalable open-source social media and multi-agent simulator capable of modeling up to one million LLM-driven agents.
-
-
-
-### Agent-Based Modeling (ABM) & Multi-Agent Frameworks
-
-
-
-* **[Mesa](https://github.com)** - Modular, Python-based open-source agent-based modeling framework featuring browser-based interactive grid/network visualization.
-
-* **[Repast Simphony & Repast4Py](https://github.com)** - Mature, open-source agent-based modeling and simulation toolkit offering both Java GUI studios and distributed Python HPC scaling.
-
-* **[MASON](https://github.com)** - Fast, discrete-event multi-agent simulation library core written in Java with 2D/3D visualization capabilities.
-
-* **[GAMA Platform](https://github.com)** - Open-source modeling and simulation development environment for building spatially explicit, GIS-integrated multi-agent simulations.
-
-* **[Agents.jl](https://github.com)** - High-performance open-source agent-based modeling framework written in pure Julia with interactive Makie visualizations.
-
-* **[FLAME GPU 2](https://github.com)** - Open-source GPU-accelerated agent-based simulation framework enabling massive-scale simulations on NVIDIA CUDA hardware.
-
-* **[MASSim (Multi-Agent Programming Contest)](https://github.com)** - Open-source multi-agent simulation server and tournament platform for benchmarking cooperative AI agents in dynamic environments.
-
-
-
-### Multi-Agent Reinforcement Learning (MARL) & AI Sandboxes
-
-
-
-* **[PettingZoo (Farama Foundation)](https://github.com)** - Standard open-source Python library for multi-agent reinforcement learning environments modeled after Gymnasium.
-
-* **[Gymnasium](https://github.com)** - The foundational open-source API standard for single-agent reinforcement learning and experimental AI control environments.
-
-* **[JaxMARL](https://github.com)** - Vectorized, GPU-accelerated multi-agent reinforcement learning environments written in JAX for orders-of-magnitude faster simulation.
-
-* **[Craftax](https://github.com)** - Open-source, JAX-accelerated open-ended survival and exploration benchmark environment for experimental AI agents.
-
-* **[Melting Pot (Google DeepMind)](https://github.com)** - Open-source suite of multi-agent reinforcement learning testbeds evaluating social interaction, cooperation, and competition.
-
-
-
-### System Dynamics & Discrete-Event Simulation Engines
-
-
-
-* **[PySD](https://github.com)** - Open-source Python library that translates Vensim and XMILE/Stella system dynamics models into executable Python code.
-
-* **[BPTK-Py (Business Prototyping Toolkit)](https://github.com)** - Open-source Python framework unifying System Dynamics and Agent-Based Modeling with interactive Jupyter dashboards.
-
-* **[SimPy](https://gitlab.com)** - Mature, process-based discrete-event simulation framework in Python for modeling queues, logistics, and resource contention.
-
-* **[Salabim](https://github.com)** - Open-source discrete-event simulation package in Python featuring built-in 2D/3D real-time animation and statistics.
-
-* **[OpenModelica](https://github.com)** - Complete, open-source Modelica-based modeling and simulation environment serving as a direct alternative to Wolfram SystemModeler.
-
-
-
-### Physics, Robotics & Embodied AI Simulators
-
-
-
-* **[MuJoCo (Multi-Joint dynamics with Contact)](https://github.com)** - Free, open-source high-precision physics engine by Google DeepMind widely used for robotics, biomechanics, and AI control.
-
-* **[Genesis](https://github.com)** - Ultra-fast, universal open-source physics platform for robotics and embodied AI capable of simulating rigid bodies, fluids, and soft bodies.
-
-* **[PyBullet](https://github.com)** - Open-source real-time physics simulation SDK supporting robotics, reinforcement learning, and virtual reality experiments.
-
-* **[Habitat-Sim (Meta AI)](https://github.com)** - High-performance 3D photorealistic simulator for training embodied AI agents in indoor virtual environments.
-
-* **[Gazebo](https://github.com)** - Open-source 3D robotics simulator with realistic sensor modeling, physics engines, and native ROS 2 integration.
-
-
+* **[OpenModelica](https://github.com/OpenModelica/OpenModelica)** [![Stars](https://img.shields.io/github/stars/OpenModelica/OpenModelica?style=social&color=white)](https://github.com/OpenModelica/OpenModelica/stargazers) — Open-source Modelica-based modeling and simulation environment for cyber-physical systems, serving as the leading FOSS alternative to Wolfram SystemModeler.
+* **[PySD](https://github.com/JamesPHoughton/pysd)** [![Stars](https://img.shields.io/github/stars/JamesPHoughton/pysd?style=social&color=white)](https://github.com/JamesPHoughton/pysd/stargazers) — Python library that compiles Vensim and XMILE/Stella system dynamics models directly into native Python for integration with modern data science stacks.
+* **[Salabim](https://github.com/salabim/salabim)** [![Stars](https://img.shields.io/github/stars/salabim/salabim?style=social&color=white)](https://github.com/salabim/salabim/stargazers) — Discrete-event simulation package in Python featuring built-in 2D/3D real-time graphical animation, queueing statistics, and queue monitor trackers.
+* **[BPTK-Py](https://github.com/transentis/bptk_py)** [![Stars](https://img.shields.io/github/stars/transentis/bptk_py?style=social&color=white)](https://github.com/transentis/bptk_py/stargazers) — The Business Prototyping Toolkit for Python; unifies System Dynamics and Agent-Based Modeling with interactive dashboards.
 
 ---
 
+## 📈 Star History
 
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Interactive-Simulation-Experimental-AI&type=date&legend=top-left)
 
-## Contributing
+---
 
+## 💖 Support
 
+Thank you for visiting and exploring **Awesome Interactive Simulation & Experimental AI**! 🌟
 
-Contributions are welcome! Feel free to open a Pull Request to add more open-source simulation engines, agent-based modeling frameworks, system dynamics tools, or experimental AI environments.
+If you found this resource helpful for your research, projects, or simulations:
+- ⭐ **Star** this repository on GitHub to help others discover it.
+- 🍴 **Fork** it to test models or contribute your own simulation frameworks.
+- 📢 **Share** it with fellow researchers, roboticists, and AI developers.
+- ☕ **Sponsor & Buy a Coffee:** Support ongoing maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
+---
 
+## 🤝 Contributing
 
-1. Fork the repository.
+Contributions are very welcome! Please follow these guidelines:
+1. Ensure the simulator or engine is actively maintained or represents a seminal tool in the field.
+2. Place the repository in the appropriate category, keep the description concise, and include its social star badge.
+3. Submit a Pull Request with a clear summary of the additions.
 
-2. Add your project under the appropriate category with a concise description.
+---
 
-3. Submit a Pull Request.
+## 📄 License
+
+This compilation is shared under the [CC0 1.0 Universal License](LICENSE).
