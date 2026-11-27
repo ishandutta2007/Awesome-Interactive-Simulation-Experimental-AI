@@ -19,7 +19,7 @@
 <p align="center">
   <strong>A curated list of top interactive simulation platforms, agent-based modeling (ABM) engines, system dynamics tools, multi-agent reinforcement learning (MARL) sandboxes, and experimental AI physics environments.</strong>
   <br />
-  <em>Featuring enterprise cloud SaaS suites ranked by company scale alongside top-tier open-source tools ranked by community GitHub stars.</em>
+  <em>Featuring enterprise cloud SaaS suites ranked by company scale alongside top-tier open-source tools ranked by community GitHub_Stars.</em>
 </p>
 
 ---
@@ -73,7 +73,7 @@ The sector remains **moderately to highly fragmented** rather than a winner-take
 ## 🛠️ Open-Source Equivalents & Tools
 
 > [!TIP]
-> Open-source repositories in each category are sorted in **descending order of GitHub Star count**. Each star badge links directly to the project's real-time stargazers.
+> Open-source repositories in each category are sorted in **descending order of GitHub Stars_Count**. Each Stars_Badge links directly to the project's real-time stargazers.
 
 ### 🤖 Multi-Agent Systems, Generative Swarms & Social Sandboxes
 
@@ -152,7 +152,7 @@ If you found this resource helpful for your research, projects, or simulations:
 
 Contributions are very welcome! Please follow these guidelines:
 1. Ensure the simulator or engine is actively maintained or represents a seminal tool in the field.
-2. Place the repository in the appropriate category, keep the description concise, and include its social star badge.
+2. Place the repository in the appropriate category, keep the description concise, and include its social Stars_Badge.
 3. Submit a Pull Request with a clear summary of the additions.
 
 ---
